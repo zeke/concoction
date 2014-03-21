@@ -10,12 +10,21 @@ route.get('/', function(req, res) {
 
   if (query && query.slugs) {
     addons.mix(query.slugs.split(','), function (err, mix) {
-      res.writeHead(200, {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, OPTIONS"
-      })
-      res.write(JSON.stringify(mix))
+      if (err) {
+        res.writeHead(404, {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET, OPTIONS"
+        })
+        res.write(JSON.stringify(err))
+      } else {
+        res.writeHead(200, {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET, OPTIONS"
+        })
+        res.write(JSON.stringify(mix))
+      }
       res.end()
     })
   } else {
