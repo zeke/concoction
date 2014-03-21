@@ -1,13 +1,13 @@
 {
-  "name": "addons-mixer",
-  "version": "0.0.0",
+  "name": "heroku-concoction",
+  "version": "0.1.0",
   "description": "A public, auth-free, CORS-friendly JSON webservice providing metadata about Heroku addons",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/zeke/addons-mixer",
-  "author": "",
+  "repository": "https://github.com/zeke/concoction",
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
   "license": "MIT",
   "dependencies": {
     "router": "~0.6.2",

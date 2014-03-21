@@ -1,13 +1,13 @@
-# Addon Mixer
+# Concoction
 
 > A public, auth-free, CORS-friendly JSON webservice providing metadata about Heroku addons
 
 ## Sample Requests
 
-- [/?slugs=memcachier](https://addon-mixer.herokuapp.com/?slugs=memecachier)
-- [/?slugs=memcachier,redistogo](https://addon-mixer.herokuapp.com/?slugs=memecachier,redistogo)
-- [/?slugs=runscope:starter](https://addon-mixer.herokuapp.com/?slugs=runscope:starter)
-- [/?slugs=mongohq:sandbox,redistogo,runscope:starter,goinstant,rollbar,usersnap,bonsai:staging,newrelic:west](https://addon-mixer.herokuapp.com/?slugs=mongohq:sandbox,redistogo,runscope:starter,goinstant,rollbar,usersnap,bonsai:staging,newrelic:west)
+- [/?slugs=memcachier](https://concoction.herokuapp.com/?slugs=memecachier)
+- [/?slugs=memcachier,redistogo](https://concoction.herokuapp.com/?slugs=memecachier,redistogo)
+- [/?slugs=runscope:starter](https://concoction.herokuapp.com/?slugs=runscope:starter)
+- [/?slugs=mongohq:sandbox,redistogo,runscope:starter,goinstant,rollbar,usersnap,bonsai:staging,newrelic:west](https://concoction.herokuapp.com/?slugs=mongohq:sandbox,redistogo,runscope:starter,goinstant,rollbar,usersnap,bonsai:staging,newrelic:west)
 
 ## Running Locally
 
