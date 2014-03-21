@@ -4,9 +4,12 @@
 
 ## Sample Requests
 
-[/?slugs=memcachier,redistogo,honeybadger](https://addon-mixer.herokuapp.com/?slugs=memecachier,redistogo,honeybadger)
+- [/?slugs=memcachier](https://addon-mixer.herokuapp.com/?slugs=memecachier)
+- [/?slugs=memcachier,redistogo](https://addon-mixer.herokuapp.com/?slugs=memecachier,redistogo)
+- [/?slugs=runscope:starter](https://addon-mixer.herokuapp.com/?slugs=runscope:starter)
+- [/?slugs=mongohq:sandbox,redistogo,runscope:starter,goinstant,rollbar,usersnap,bonsai:staging,newrelic:west](https://addon-mixer.herokuapp.com/?slugs=mongohq:sandbox,redistogo,runscope:starter,goinstant,rollbar,usersnap,bonsai:staging,newrelic:west)
 
-## Running the app locally
+## Running Locally
 
 The underlying [heroku-addons node
 module](https://www.npmjs.org/package/heroku-addons) requires a
