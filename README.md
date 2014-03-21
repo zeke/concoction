@@ -4,10 +4,9 @@
 
 ## Sample Requests
 
-- [/?slugs=memcachier](https://concoction.herokuapp.com/?slugs=memecachier)
-- [/?slugs=memcachier,redistogo](https://concoction.herokuapp.com/?slugs=memecachier,redistogo)
-- [/?slugs=runscope:starter](https://concoction.herokuapp.com/?slugs=runscope:starter)
-- [/?slugs=mongohq:sandbox,redistogo,runscope:starter,goinstant,rollbar,usersnap,bonsai:staging,newrelic:west](https://concoction.herokuapp.com/?slugs=mongohq:sandbox,redistogo,runscope:starter,goinstant,rollbar,usersnap,bonsai:staging,newrelic:west)
+- One addon without plan: [bonsai](https://concoction.herokuapp.com/?slugs=bonsai)
+- One addon with plan: [bonsai:staging](https://concoction.herokuapp.com/?slugs=bonsai:staging)
+- Multiple addons with or without plans: [mongohq:sandbox,redistogo,bonsai:staging](https://concoction.herokuapp.com/?slugs=mongohq:sandbox,redistogo,bonsai:staging)
 
 ## Running Locally
 
