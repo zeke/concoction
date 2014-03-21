@@ -1,0 +1,19 @@
+{
+  "name": "addons-mixer",
+  "version": "0.0.0",
+  "description": "A public, auth-free, CORS-friendly JSON webservice providing metadata about Heroku addons",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/zeke/addons-mixer",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "router": "~0.6.2",
+    "heroku-addons": "^0.2.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
