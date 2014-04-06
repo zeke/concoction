@@ -14,8 +14,8 @@ metadata about Heroku addons. It's a thin HTTP wrapper around the
 
 ```json
 {
-  "totalCents": 1000,
-  "total": "$10/mo",
+  "totalPriceInCents": 1000,
+  "totalPrice": "$10/mo",
   "plans": [{
     "created_at": "2013-08-05T20:50:21Z",
     "default": true,

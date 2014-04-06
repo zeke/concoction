@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "router": "~0.6.2",
-    "heroku-addons": "^0.2.0"
+    "heroku-addons": "^0.3.0"
   },
   "engines": {
     "node": "0.10.x"
