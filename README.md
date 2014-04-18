@@ -54,7 +54,7 @@ API, so you'll need to create a `.env` file with your token for foreman to use:
 ```sh
 npm install
 echo "HEROKU_API_TOKEN=$(heroku auth:token)" >> .env
-foreman start
+npm start
 ```
 
 ## License
