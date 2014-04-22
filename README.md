@@ -1,4 +1,6 @@
-# Concoction
+# Concoction [DEPRECATED]
+
+**Good news!**: The Heroku Platform API now allows unauthenticated requests for Add-on metadata! That means this service no longer needs to exist. More info at https://devcenter.heroku.com/changelog-items/457
 
 Concoction is a public, auth-free, CORS-friendly JSON webservice providing
 metadata about Heroku addons. It's a thin HTTP wrapper around the
